@@ -27,9 +27,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraformbuckettestapplication "
+    bucket = "fds43654632543543vxcg45435dsa"
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = "eu-north-1"
   }
 
   required_version = ">= 1.11.3"
